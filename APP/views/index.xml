@@ -1,0 +1,32 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="indexTab">
+			<Window id="index">
+				<Label class="header" text="Laatst gebruikt in"></Label>
+				<Label class="inhoud" text="" id='lastLocation'></Label>
+				<Label class="header" text="Aantal keren gebruikt"></Label>
+				<Label class="inhoud" text="" id="used"></Label>
+				<Label class="header" text="Totaal afgelegd"></Label>
+				<Label class="inhoud" text="" id="distance"></Label>
+				<Label class="knop" text="Geschiedenis" onClick="geschiedenisKlik"></Label>
+				<Label class="knop" text="Gebruik deze kaart" onClick="kaartKlik"></Label>
+			</Window>
+		</Tab>
+		<Tab id="mapTab">
+			<Window id="kaarten">
+				<View id="map" ns="Alloy.Globals.Map" onClick="annotationKlik"/>
+			</Window>
+	</Tab>
+		<Tab id="doneerTab">
+			<Window id="doneer">
+				<WebView id="web" url="http://doodlesoft.nl/dev/ah/donate.php"></WebView>
+				<Label class="knop" text="Kaart delen" onClick="doneer"></Label>
+			</Window>
+		</Tab>
+		<Tab id="faqTab">
+			<Window id="faq">
+				<WebView id="web2" url="http://doodlesoft.nl/dev/ah/faq.php"></WebView>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

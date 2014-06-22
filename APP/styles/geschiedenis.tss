@@ -1,0 +1,10 @@
+"Window":{
+	barColor:'#0090DE',
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	navTintColor:'#FFFFFF',
+	backgroundColor:'#FFFFFF',
+	layout:'vertical',
+	title:'Geschiedenis',
+	backButtonTitle:'Terug',
+		//navBarHidden:true
+}

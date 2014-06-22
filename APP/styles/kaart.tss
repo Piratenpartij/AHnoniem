@@ -1,0 +1,9 @@
+"Window":{
+	barColor:'#0090DE',
+	statusBarStyle:Titanium.UI.iPhone.setStatusBarHidden,
+	navTintColor:'#FFFFFF',
+	backgroundColor:'#FFFFFF',
+	layout:'vertical',
+	navBarHidden:true,
+	fullscreen:true
+}

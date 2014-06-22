@@ -1,0 +1,29 @@
+"Window":{
+	barColor:'#0090DE',
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	navTintColor:'#FFFFFF',
+	title: 'Winkel kiezen',
+	backgroundColor:'#0090DE',
+		//navBarHidden:true
+
+}
+"View":{
+	layout:'vertical'
+}
+"#titel":{
+	top:30,
+	color:'#FFFFFF',
+	font:{
+		fontSize:20
+	},
+	text:'Ik winkel meestal in'
+}
+"#winkels":{
+	top:10,
+	bottom:10,
+	left:10,
+	right:10
+}
+"TableView":{
+	backgroundColor:'#FFFFFF'
+}

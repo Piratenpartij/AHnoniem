@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="win">
+		<View>
+			<Label id="titel"></Label>
+			<TableView id="winkels" onClick="klik"></TableView>
+		</View>
+	</Window>
+</Alloy>

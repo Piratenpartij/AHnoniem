@@ -1,0 +1,78 @@
+"Window":{
+	barColor:'#0090DE',
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	navTintColor:'#FFFFFF',
+	backgroundColor:'#FFFFFF',
+	layout:'vertical',
+	//navBarHidden:true
+}
+"#index":{
+	title:'Tijdelijke kaart'
+}
+"Label":{
+	textAlign:'center'
+}
+".header":{
+	height:30,
+	top:10,
+	font:{
+		fontSize:13
+	},
+	color:'gray'
+}
+".inhoud":{
+	height:30,
+	top:0,
+	font:{
+		fontSize:18
+	},
+	color:'#0090DE'
+}
+".knop":{
+	height:40,
+	width:'85%',
+	top:20,
+	font:{
+		fontSize:18,
+		fontWeight:'bold'
+	},
+	color:'#FFFFFF',
+	backgroundColor:'#0090DE',
+	borderRadius:5
+}
+"#kaarten":{
+	title:'Kaarten op de kaart'
+}
+"#faq":{
+	title:'Veelgestelde vragen'
+}
+"#doneer":{
+	title:'Deel een kaart'
+}
+"TabGroup":{
+	backgroundColor:'#FFFFFF'
+}
+"#indexTab":{
+	title:'Tijdelijke kaart',
+	icon:'tab1.png'
+}
+"#mapTab":{
+	title:'Alle kaarten',
+	icon:'tab2.png'
+}
+"#faqTab":{
+	title:'FAQ',
+	icon:'tab4.png'
+}
+"#doneerTab":{
+	title:'Delen',
+	icon:'tab3.png'
+}
+"#web":{
+	height:'80%'
+}
+"TabGroup":{
+	tintColor:'#0090DE',
+	backgroundColor:'#FFFFFF',
+	navBarHidden:true
+}
